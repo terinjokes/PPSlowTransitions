@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03449DE7147702FD0075586F /* ProWindow+PPSlowTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 03449DE6147702FD0075586F /* ProWindow+PPSlowTransition.m */; };
+		0364CEAF14773966006FFD3F /* RVRenderHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364CEAE14773966006FFD3F /* RVRenderHandler.m */; };
+		03A313EE1476D2C300A32D50 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A313ED1476D2C300A32D50 /* Cocoa.framework */; };
+		03A313F81476D2C300A32D50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A313F61476D2C300A32D50 /* InfoPlist.strings */; };
+		03A314011476D38900A32D50 /* PPSlowTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A314001476D38900A32D50 /* PPSlowTransition.m */; };
+		03A314041476D9EF00A32D50 /* RVRenderHandler+PPSlowTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A314031476D9EF00A32D50 /* RVRenderHandler+PPSlowTransition.m */; };
+		03E5769814773C710068A06F /* ProWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E5769714773C710068A06F /* ProWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03449DE1147702D40075586F /* ProWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProWindow.h; sourceTree = "<group>"; };
+		03449DE5147702FD0075586F /* ProWindow+PPSlowTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ProWindow+PPSlowTransition.h"; sourceTree = "<group>"; };
+		03449DE6147702FD0075586F /* ProWindow+PPSlowTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ProWindow+PPSlowTransition.m"; sourceTree = "<group>"; };
+		0356AE5E1476DAF90015F88F /* RVRenderHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVRenderHandler.h; sourceTree = "<group>"; };
+		0364CEAE14773966006FFD3F /* RVRenderHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVRenderHandler.m; sourceTree = "<group>"; };
+		03A313EA1476D2C300A32D50 /* PPSlowTransitions.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPSlowTransitions.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A313ED1476D2C300A32D50 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		03A313F01476D2C300A32D50 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		03A313F11476D2C300A32D50 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03A313F21476D2C300A32D50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03A313F51476D2C300A32D50 /* PPSlowTransitions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PPSlowTransitions-Info.plist"; sourceTree = "<group>"; };
+		03A313F71476D2C300A32D50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03A313F91476D2C300A32D50 /* PPSlowTransitions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PPSlowTransitions-Prefix.pch"; sourceTree = "<group>"; };
+		03A313FF1476D38900A32D50 /* PPSlowTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSlowTransition.h; sourceTree = "<group>"; };
+		03A314001476D38900A32D50 /* PPSlowTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSlowTransition.m; sourceTree = "<group>"; };
+		03A314021476D9EF00A32D50 /* RVRenderHandler+PPSlowTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RVRenderHandler+PPSlowTransition.h"; sourceTree = "<group>"; };
+		03A314031476D9EF00A32D50 /* RVRenderHandler+PPSlowTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RVRenderHandler+PPSlowTransition.m"; sourceTree = "<group>"; };
+		03E5769714773C710068A06F /* ProWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03A313E71476D2C300A32D50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A313EE1476D2C300A32D50 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A313DF1476D2C300A32D50 = {
+			isa = PBXGroup;
+			children = (
+				03A313F31476D2C300A32D50 /* PPSlowTransitions */,
+				03A313EC1476D2C300A32D50 /* Frameworks */,
+				03A313EB1476D2C300A32D50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03A313EB1476D2C300A32D50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03A313EA1476D2C300A32D50 /* PPSlowTransitions.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03A313EC1476D2C300A32D50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03A313ED1476D2C300A32D50 /* Cocoa.framework */,
+				03A313EF1476D2C300A32D50 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03A313EF1476D2C300A32D50 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03A313F01476D2C300A32D50 /* AppKit.framework */,
+				03A313F11476D2C300A32D50 /* CoreData.framework */,
+				03A313F21476D2C300A32D50 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		03A313F31476D2C300A32D50 /* PPSlowTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				03449DE1147702D40075586F /* ProWindow.h */,
+				03E5769714773C710068A06F /* ProWindow.m */,
+				03449DE5147702FD0075586F /* ProWindow+PPSlowTransition.h */,
+				03449DE6147702FD0075586F /* ProWindow+PPSlowTransition.m */,
+				0356AE5E1476DAF90015F88F /* RVRenderHandler.h */,
+				0364CEAE14773966006FFD3F /* RVRenderHandler.m */,
+				03A314021476D9EF00A32D50 /* RVRenderHandler+PPSlowTransition.h */,
+				03A314031476D9EF00A32D50 /* RVRenderHandler+PPSlowTransition.m */,
+				03A313FF1476D38900A32D50 /* PPSlowTransition.h */,
+				03A314001476D38900A32D50 /* PPSlowTransition.m */,
+				03A313F41476D2C300A32D50 /* Supporting Files */,
+			);
+			path = PPSlowTransitions;
+			sourceTree = "<group>";
+		};
+		03A313F41476D2C300A32D50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03A313F51476D2C300A32D50 /* PPSlowTransitions-Info.plist */,
+				03A313F61476D2C300A32D50 /* InfoPlist.strings */,
+				03A313F91476D2C300A32D50 /* PPSlowTransitions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03A313E91476D2C300A32D50 /* PPSlowTransitions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A313FC1476D2C300A32D50 /* Build configuration list for PBXNativeTarget "PPSlowTransitions" */;
+			buildPhases = (
+				03A313E61476D2C300A32D50 /* Sources */,
+				03A313E71476D2C300A32D50 /* Frameworks */,
+				03A313E81476D2C300A32D50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPSlowTransitions;
+			productName = PPSlowTransitions;
+			productReference = 03A313EA1476D2C300A32D50 /* PPSlowTransitions.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03A313E11476D2C300A32D50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 03A313E41476D2C300A32D50 /* Build configuration list for PBXProject "PPSlowTransitions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03A313DF1476D2C300A32D50;
+			productRefGroup = 03A313EB1476D2C300A32D50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03A313E91476D2C300A32D50 /* PPSlowTransitions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03A313E81476D2C300A32D50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A313F81476D2C300A32D50 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03A313E61476D2C300A32D50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A314011476D38900A32D50 /* PPSlowTransition.m in Sources */,
+				03A314041476D9EF00A32D50 /* RVRenderHandler+PPSlowTransition.m in Sources */,
+				03449DE7147702FD0075586F /* ProWindow+PPSlowTransition.m in Sources */,
+				0364CEAF14773966006FFD3F /* RVRenderHandler.m in Sources */,
+				03E5769814773C710068A06F /* ProWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03A313F61476D2C300A32D50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A313F71476D2C300A32D50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03A313FA1476D2C300A32D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03A313FB1476D2C300A32D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03A313FD1476D2C300A32D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PPSlowTransitions/PPSlowTransitions-Prefix.pch";
+				INFOPLIST_FILE = "PPSlowTransitions/PPSlowTransitions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		03A313FE1476D2C300A32D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PPSlowTransitions/PPSlowTransitions-Prefix.pch";
+				INFOPLIST_FILE = "PPSlowTransitions/PPSlowTransitions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03A313E41476D2C300A32D50 /* Build configuration list for PBXProject "PPSlowTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A313FA1476D2C300A32D50 /* Debug */,
+				03A313FB1476D2C300A32D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03A313FC1476D2C300A32D50 /* Build configuration list for PBXNativeTarget "PPSlowTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A313FD1476D2C300A32D50 /* Debug */,
+				03A313FE1476D2C300A32D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03A313E11476D2C300A32D50 /* Project object */;
+}
